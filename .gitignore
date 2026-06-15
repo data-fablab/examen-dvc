@@ -2,7 +2,7 @@ __pycache__/
 *.py[cod]
 .venv/
 env/
-RENDU_A_COMPLETER.md
+infos.md
 
 # Data and model artifacts are tracked with DVC, not Git.
 /data/raw/*
