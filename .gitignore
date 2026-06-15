@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+env/
+RENDU_A_COMPLETER.md
+
+# Data and model artifacts are tracked with DVC, not Git.
+/data/raw/*
+/data/processed/*
+/data/prediction.csv
+/models/*.pkl
+
+!/data/raw/.gitkeep
+!/data/raw/*.dvc
+!/data/processed/.gitkeep
+!/models/.gitkeep
+!/metrics/.gitkeep
